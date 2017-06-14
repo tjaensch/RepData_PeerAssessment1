@@ -1,0 +1,104 @@
+a <- available.packages()
+head(rownames(a), 3)
+install.packages(KernSmooth)
+x <- 1
+print(x)
+msg <- "hello"
+print(msg)
+1
+x
+x <- 1:20
+x
+x <- c(0.5, 0.6)
+x
+install.packages("swirl")
+packageVersion("swirl")
+library(swirl)
+swirl()
+library(swirl)
+install_from_swirl("R Programming")
+swirl()
+1
+swirl()
+5 + 7
+x <- 5 +7
+x
+y <- x-3
+y
+z <- c(1.1, 9, 3.14)
+?c
+z
+c(z,555,z)
+z * 2 + 100
+my_sqrt <- sqrt(z-1)
+my_sqrt
+my_div <- z \ my_sqrt
+my_div <- z / my_sqrt
+my_div
+c(1,#
+| 2, 3, 4) + c(0, 10)
+c(1,2,3,4) + c(0,10)
+c(1, 2, 3, 4) + c(0, 10, 100)
+z * 2 + 1000
+my_div
+debug(ls)
+ls
+debug(ls)
+ls
+swirl()
+library(swirl)
+swirl()
+getwd()
+ls()
+x <- 9
+ls()
+dir()
+?list.files
+list.files().args()
+args(list.files())
+args(list.files)
+old.dir <- getwd()
+dir.create(testdir)
+dir.create()
+dir.create(testdir)
+dir.create("testdir")
+setwd("testdir")
+file.create("mytest.R")
+ls
+info()
+getwd()
+ls
+info()
+ls
+lm(ls)
+info()
+skip()
+file.exists("mytest.R")
+file.info("mytest.R")
+file.rename(mytest.R)
+file.rename("mytest.R")
+file.rename("mytest.R" to "mytest2.R")
+file.rename("mytest.R" "mytest2.R")
+file.rename("mytest.R", "mytest2.R")
+file.copy("mytest2.R", "mytest3.R")
+file.path("mytest3.R")
+skip
+skip()
+setwd()
+getwd()
+setwd("/Users/thomasjaensch")
+setwd("/Users/thomasjaensch/")
+info()
+skip()
+install.packages("xslx")
+install.packages("xlsx")
+library(XML)
+install.packages(XML)
+install.packages("XML")
+library(XML)
+install.packages("RMySQL")
+setwd("/Users/thomasjaensch/Desktop/RepData_PeerAssessment1")
+knit2html("PA1_template.Rmd",options="")
+library(knitr)
+knit2html("PA1_template.Rmd",options="")
+knit2html("PA1_template.Rmd",options="")

@@ -68,7 +68,7 @@ median(totalSteps)
 
 ## Differences in activity patterns between weekdays and weekends
 
-Valculate which day of the week it is:
+Calculate which day of the week it is:
 ```{r, echo=TRUE}
 whichDayOfTheWeek <- function(date) {
     day <- weekdays(date)
